@@ -6,15 +6,22 @@
 
 # 项目概述
 本项目中一共涉及到3个脚本，GameManager，Grid，Shape，GameManager类是一个单例模式，可以给别的类提供一系列的方法调用，Grid类中没有方法，其功能为存储当前的Grid的行列的信息以及是否有俄罗斯覆盖，Shape类是挂在每一个俄罗斯方块上的，需要实现,IBeginDragHandler, IDragHandler, IEndDragHandler接口
+
 在介绍具体实现之前需要介绍一下我的想法。首先，每一个俄罗斯方块在拖动的时候是一个整体，但是在放置到上方区域以后其实就互不相干了，因为不管是消除行列都不会在意他原先的形状。其次，在俄罗斯方块还是一个整体的时候需要有一个标准，因为你的鼠标只能代表一个格子，在放置的时候必须要统一你到底放置在哪，我的定义是鼠标拖动的永远是左上角那一格（这样在后续判断是否能放入时能够有一个比较统一的方法）
-GameManager类
+
+## GameManager类
 InitMap方法：该方法用于初始化地图，开始游戏和重新开始游戏时调用，该方法生成的是Grid即上方的初始方块，仅当开始游戏时或重开游戏时执行
+
 SpawnBlock方法：随机生成可以拖动的方块（Shape）即下方方块，在当前没有可以拖动的方块时执行
+
 CanGameContinue方法：判断游戏是否结束，遍历一遍所有的格子，并判断现有的Shape是否能够继续操作，在每一次成功放置后执行
+
 GameOver方法：执行一系列的操作，来让游戏恢复到初始状态，在CanGameContinue方法发现游戏无法继续进行下去时执行
 ClearLine方法：判断并消除一列或一行满了的情况，并且加分，为了实现一行和一列同时消除，所以需要先判断有几行几列满了，然后统一进行消除，并且减去重叠部分（减去重叠部分是计算分数）
+
 CanPutDown方法：为了减少冗余的代码，我进行了一定的优化，当这个方法的传入的putDown是false时，这个方法的作用是返回一个布尔值，代表了这个格子是否能够放入俄罗斯方块，当传入的putDown是true时，这个方法会直接放入方块
-Shape类
+
+## Shape类
 由GameManager的SpawnBlock方法生成并初始化，由于我把俄罗斯方块的中心位置定在了所有方法的左上角，因此在初始化的时候需要进行一定的处理，也就是计算出该Shape的中心位置，并用左上角的坐标减去中心位置，这样生成才能整齐对称
-实现了IBeginDragHandler, IDragHandler, IEndDragHandler接口，核心是OnEndDrag方法，需要判断鼠标是否指向了Grid，然后调用一系列GameManager
-提供的方法，需要说明的是我写了一个枚举，这样只需要给每一个Shape都挂一下Shape类，并且选择对应的俄罗斯方块的种类即可。
+
+实现了IBeginDragHandler, IDragHandler, IEndDragHandler接口，核心是OnEndDrag方法，需要判断鼠标是否指向了Grid，然后调用一系列GameManager提供的方法，需要说明的是我写了一个枚举，这样只需要给每一个Shape都挂一下Shape类，并且选择对应的俄罗斯方块的种类即可。
