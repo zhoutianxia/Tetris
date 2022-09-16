@@ -1,0 +1,694 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662989212628143, "dur":887, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212629036, "dur":121, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662989212629195, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662989212629216, "dur":471, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662989212629704, "dur":510, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212630214, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719093, "dur":254, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719347, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719363, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719365, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719393, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719395, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719400, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719401, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719406, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719407, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719412, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719413, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719417, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719419, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719423, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719425, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719429, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719431, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719435, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719437, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719442, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719443, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719450, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719451, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719456, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719457, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719461, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719463, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719467, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719469, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719473, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719474, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719479, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719487, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212719499, "dur":1199, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662989212629829, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212630222, "dur":1507, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212631747, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662989212631748, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212631775, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662989212631776, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212631810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212632957, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662989212635313, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662989212635363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212635395, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662989212636680, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212636696, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212636758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212637192, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212642153, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212642165, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212642194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212642199, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212644838, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212644851, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212644880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212644884, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212647737, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212647746, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212647869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212647874, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212651122, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212651136, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212651180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212651185, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212654569, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1662989212654746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212654749, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1662989212657829, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212657896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212657900, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212660844, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212660909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212660913, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212664049, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212664057, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212664152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212664177, "dur":3248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662989212667435, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1662989212667510, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212667539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212667882, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1662989212668573, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1662989212668639, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212668683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662989212668687, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1662989212670744, "dur":48358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212629866, "dur":363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212630229, "dur":1507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212631745, "dur":959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662989212632729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212634238, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662989212635612, "dur":21618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662989212657234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212657263, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662989212661026, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1662989212661106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212661111, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1662989212664045, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662989212664054, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212664172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212664176, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662989212667493, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662989212667510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212667526, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1662989212668553, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662989212668568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662989212668571, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1662989212670008, "dur":49092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212629858, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212630225, "dur":1516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212631747, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662989212632023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212634346, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662989212635914, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212635935, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212635967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212637071, "dur":4524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212641602, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212641612, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212641699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212641703, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212644128, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212644138, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212644171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212644175, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212647135, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212647145, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212647177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212647181, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212650307, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212650320, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212650405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212650410, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212653411, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212653420, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212653550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212653578, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212656932, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1662989212657016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212657023, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1662989212659996, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212660058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212660061, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212663080, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212663089, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212663202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212663205, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662989212667038, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1662989212667124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662989212667129, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1662989212669384, "dur":49718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212629889, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212630234, "dur":1500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212631745, "dur":760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1662989212632509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212634253, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1662989212635352, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1662989212635396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212635402, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1662989212636884, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212636902, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212637034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212637259, "dur":5235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212642512, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212642523, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212642552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212642557, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212645790, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212645804, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212645843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212645847, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212649149, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212649158, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212649221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212649224, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212652243, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212652251, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212652358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212652362, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212655683, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1662989212655795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212655799, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1662989212658920, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1662989212659019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212659023, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1662989212661956, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212661965, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212662026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212662029, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212666433, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212666445, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212666484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662989212666487, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662989212669355, "dur":49734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212629918, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212630238, "dur":1497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212631746, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662989212631811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212634716, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662989212636021, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212636054, "dur":714, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212636772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212637231, "dur":5008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212642249, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212642260, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212642326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212642331, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212644841, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212644851, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212644875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212644879, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212647602, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212647612, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212647652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212647656, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212650606, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212650620, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212650729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212650732, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212654118, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212654213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212654218, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212657736, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1662989212657806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212657809, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1662989212660577, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1662989212660665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212660670, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1662989212663829, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212663837, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212663870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212663873, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212667155, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212667226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662989212667229, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662989212669425, "dur":49663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212629938, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212630242, "dur":1519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212631762, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1662989212632548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212634318, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1662989212635649, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris.exe" }}
+,{ "pid":12345, "tid":6, "ts":1662989212636290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212636294, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris.exe" }}
+,{ "pid":12345, "tid":6, "ts":1662989212637699, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212637714, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212637898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212637903, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212643008, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212643019, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212643170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212643173, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212645848, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212645865, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212646099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212646103, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212649450, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212649460, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212649581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212649586, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212652618, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212652626, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212652662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212652666, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212656109, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212656372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212656375, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212659812, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212659868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212659872, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212662796, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212662804, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212662825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212662828, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212666520, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212666530, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212666653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662989212666656, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662989212670705, "dur":48382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212629961, "dur":285, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212630246, "dur":1503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212631749, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1662989212632029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212634583, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1662989212636125, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212636148, "dur":911, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212637065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212637104, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212641868, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212641882, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212642044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212642050, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212644780, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212644789, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212644823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212644826, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212647643, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212647658, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212647865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212647869, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212651115, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212651123, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212651164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212651181, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212654923, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1662989212655136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212655139, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1662989212658049, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1662989212658110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212658114, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1662989212661165, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212661236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212661240, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212664371, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212664383, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212664581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212664584, "dur":4648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662989212669243, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1662989212669259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662989212669262, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1662989212670957, "dur":48149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212629989, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212630250, "dur":1493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212631744, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662989212631809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212634329, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1662989212636106, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212636123, "dur":895, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212637023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212637253, "dur":5019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212642281, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212642292, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212642326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212642331, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212644855, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212644866, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212644895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212644898, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212648046, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212648109, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212648152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212648155, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212651231, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212651245, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212651384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212651388, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212654664, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212654922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212654943, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212658522, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1662989212658597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212658651, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1662989212661714, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212661723, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212661800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212661804, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212664912, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212664921, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212665037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212665041, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662989212669232, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1662989212669249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662989212669253, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1662989212670930, "dur":48180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212630020, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212630254, "dur":1485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212631745, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1662989212632485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212634248, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1662989212635555, "dur":2656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212638217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212639512, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212640497, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212640508, "dur":473, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212640985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212640990, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212643838, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212643847, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212643871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212643874, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212646815, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212646823, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212646873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212646876, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212650228, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212650241, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212650406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212650411, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212653419, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212653437, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212653572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212653579, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212656471, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212656526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212656529, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212659323, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1662989212659385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212659388, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1662989212662428, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212662436, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212662468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212662471, "dur":3773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212666254, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212666264, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212666369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662989212666372, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662989212669313, "dur":49777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212630059, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212630258, "dur":1487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212631745, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1662989212632417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212634231, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1662989212635613, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212636273, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212636278, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212637279, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212637293, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212637331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212637369, "dur":5222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212642602, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212642804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212642807, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212645801, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212645814, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212645858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212645862, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212649271, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212649280, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212649399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212649403, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212652505, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212652514, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212652542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212652547, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212655858, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1662989212656008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212656011, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1662989212659071, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212659165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212659169, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212661997, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212662006, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212662039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212662043, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212665172, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212665183, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212665336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212665339, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662989212668761, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1662989212668826, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212668989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662989212668993, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1662989212670892, "dur":48211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212630071, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212630262, "dur":1480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212631747, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1662989212631807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212634297, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1662989212635496, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1662989212635534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212635571, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1662989212638274, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212638290, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212638402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212638406, "dur":4646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212643060, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212643071, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212643173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212643194, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212645673, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212645681, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212645708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212645712, "dur":3385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212649106, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212649115, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212649144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212649147, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212651975, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212651983, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212652184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212652187, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212655697, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212655844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212655847, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212658913, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212658981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212658985, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212662007, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212662019, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212662049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212662052, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212665266, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212665274, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212665337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212665340, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662989212669178, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662989212669219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662989212669224, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662989212671033, "dur":48061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212630091, "dur":175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212630266, "dur":1481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212631749, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1662989212631810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212634646, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1662989212636045, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212636064, "dur":610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212636678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212637106, "dur":4764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212641880, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212641894, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212642018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212642043, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212644472, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212644483, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212644623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212644626, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212647289, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212647303, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212647458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212647462, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212650534, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212650542, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212650589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212650593, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212653777, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1662989212653846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212653849, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1662989212656980, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212657048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212657051, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212659990, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212660042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212660044, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212663009, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212663018, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212663045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212663049, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212667037, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212667049, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212667096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662989212667101, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662989212669353, "dur":49738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212630112, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212630270, "dur":1473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212631746, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1662989212632417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212634216, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1662989212635641, "dur":5796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1662989212641443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212641447, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1662989212642596, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1662989212642761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212642766, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1662989212645289, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212645296, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212645497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212645500, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212648559, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212648568, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212648752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212648755, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212651615, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212651630, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212651796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212651800, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212655420, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212655428, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212655511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212655516, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212658459, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212658535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212658540, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212661525, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212661576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212661580, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212664629, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212664637, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212664857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212664862, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662989212668168, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1662989212668205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212668209, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1662989212668777, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1662989212668789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662989212668791, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1662989212670918, "dur":48187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212630130, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212630273, "dur":1473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212631746, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1662989212631995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212633695, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1662989212635882, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1662989212635914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212636443, "dur":5528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1662989212641980, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212641997, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212642039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212642043, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212644200, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212644208, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212644239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212644242, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212646997, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212647005, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212647092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212647095, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212649930, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212649942, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212650029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212650034, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212653308, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212653318, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212653363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212653367, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212656320, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1662989212656394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212656398, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1662989212659250, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1662989212659327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212659332, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1662989212662177, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212662185, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212662322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212662325, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662989212665644, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1662989212665892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212665896, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1662989212669254, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1662989212669340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662989212669370, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1662989212671026, "dur":48067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662989212630158, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662989212630277, "dur":1471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662989212631749, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1662989212632518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662989212634284, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1662989212635617, "dur":65253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662989212700904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662989212700911, "dur":18136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662989212719060, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1662989212719061, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212630185, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212630281, "dur":1457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212631747, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1662989212632080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212634637, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1662989212636078, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212636097, "dur":688, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212636791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212637243, "dur":5166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212642422, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212642435, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212642487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212642491, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212644951, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212644960, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212644993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212644996, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212648123, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212648132, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212648168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212648171, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212651490, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212651498, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212651521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212651524, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212654935, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212655261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212655264, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212658586, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1662989212658672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212658677, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1662989212661522, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1662989212661580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212661583, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1662989212664405, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212664414, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212664586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212664590, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662989212669241, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://UnityGames/Tetris/ZTX_Tetris_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1662989212669258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662989212669262, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://UnityGames/Tetris/ZTX_Tetris_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1662989212670977, "dur":48120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662989212721699, "dur":1578, "ph":"X", "name": "ProfilerWriteOutput" }
+,
